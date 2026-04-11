@@ -5,10 +5,10 @@ import { useTranslation, Trans } from 'react-i18next';
 import './Home.css';
 
 const heroImages = [
-  "/images/bedroom.webp",
-  "/images/city_5.webp",
-  "/images/balcony.webp",
-  "/images/wine_bottle.webp"
+  import.meta.env.BASE_URL + "images/bedroom.webp",
+  import.meta.env.BASE_URL + "images/city_5.webp",
+  import.meta.env.BASE_URL + "images/balcony.webp",
+  import.meta.env.BASE_URL + "images/wine_bottle.webp"
 ];
 
 const amenityCategoriesArray = [
@@ -50,7 +50,7 @@ const Home = () => {
       {/* Editorial Hero Section */}
       <section className="hero-editorial" id="home">
         <div className="hero-top-bg">
-           <img src="/logo_black.png" alt="Lazzaretto City Walk" className="hero-logo" onError={(e) => { e.target.onerror = null; e.target.src="https://via.placeholder.com/300x100?text=LAZZARETTO+CITY+WALK" }} />
+           <img src={`${import.meta.env.BASE_URL}logo_black.png`} alt="Lazzaretto City Walk" className="hero-logo" onError={(e) => { e.target.style.display = 'none'; }} />
            <p className="hero-subtitle">{t('home.hero_subtitle')}</p>
         </div>
         
@@ -104,7 +104,7 @@ const Home = () => {
             </div>
           </div>
           <div className="about-image fade-in">
-            <img src="/images/balcony.webp" alt="Balcone Lazzaretto City Walk" />
+            <img src={`${import.meta.env.BASE_URL}images/balcony.webp`} alt="Balcone Lazzaretto City Walk" />
           </div>
         </div>
       </section>

@@ -37,7 +37,7 @@ const Instructions = () => {
           <KeySquare size={40} color="var(--color-accent)" style={{margin: '0 auto', marginBottom: '1rem'}}/>
           <h1 className="inst-page-title">{t('instructions.title')}</h1>
           <img 
-            src="/logo_black.png" 
+            src={`${import.meta.env.BASE_URL}logo_black.png`} 
             alt="Lazzaretto City Walk" 
             className="inst-logo"
             onError={(e) => { e.target.style.display='none'; }}
@@ -57,7 +57,7 @@ const Instructions = () => {
             <div className="accordion-panel">
               <div className="accordion-body">
                 <p><Trans i18nKey="instructions.s1_p1" components={[<span key="0" />, <a key="1" href="https://www.google.com/maps/search/?api=1&query=Via+del+Lazzaretto+15+Bergamo" target="_blank" rel="noreferrer" className="maps-link" />]} /></p>
-                <img src="/images/instructions/image1.jpeg" alt="Ingresso esterno" className="inst-image" />
+                <img src={`${import.meta.env.BASE_URL}images/instructions/image1.jpeg`} alt="Ingresso esterno" className="inst-image" />
                 <p className="mt-4"><Trans i18nKey="instructions.s1_p2" components={[<strong key="1" />]} /></p>
                 <p><Trans i18nKey="instructions.s1_p3" components={[<strong key="1" />]} /></p>
               </div>
@@ -73,11 +73,11 @@ const Instructions = () => {
             </button>
             <div className="accordion-panel">
               <div className="accordion-body">
-                <img src="/images/instructions/image2.png" alt="Pomello smart sulla porta" className="inst-image small mb-4 mt-0" />
+                <img src={`${import.meta.env.BASE_URL}images/instructions/image2.png`} alt="Pomello smart sulla porta" className="inst-image small mb-4 mt-0" />
                 <p><Trans i18nKey="instructions.s2_p1" components={[<strong key="1" />]} /></p>
                 
                 <h4 className="mt-6 mb-2">{t('instructions.s2_subtitle')}</h4>
-                <img src="/images/instructions/image3.jpg" alt="Pulsante virtuale" className="inst-image small mb-4" />
+                <img src={`${import.meta.env.BASE_URL}images/instructions/image3.jpg`} alt="Pulsante virtuale" className="inst-image small mb-4" />
                 
                 <div className="meth-block">
                    <h5>{t('instructions.s2_meth1_title')}</h5>
@@ -110,7 +110,7 @@ const Instructions = () => {
               <div className="accordion-body">
                 <h4 className="mb-2">{t('instructions.s3_in_title')}</h4>
                 <p>{t('instructions.s3_in_p')}</p>
-                <img src="/images/instructions/image4.png" alt="Serratura interna" className="inst-image small my-4" />
+                <img src={`${import.meta.env.BASE_URL}images/instructions/image4.png`} alt="Serratura interna" className="inst-image small my-4" />
 
                 <h4 className="mt-6 mb-2">{t('instructions.s3_out_title')}</h4>
                 <p><Trans i18nKey="instructions.s3_out_p" components={[<strong key="1" />]} /></p>
@@ -171,7 +171,7 @@ const Instructions = () => {
               <Zap size={20} color="var(--color-accent)"/> {t('instructions.s6_elec_title')}
             </h4>
             <p>{t('instructions.s6_elec_p')}</p>
-            <img src="/images/instructions/image5.jpg" alt="Quadro elettrico scale" className="inst-image mt-4" />
+            <img src={`${import.meta.env.BASE_URL}images/instructions/image5.jpg`} alt="Quadro elettrico scale" className="inst-image mt-4" />
           </div>
         </section>
 

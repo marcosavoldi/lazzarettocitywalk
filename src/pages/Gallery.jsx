@@ -4,30 +4,30 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import './Gallery.css';
 
 const images = [
-  "/images/bedroom.webp",
-  "/images/kitchen.webp",
-  "/images/bathroom.webp",
-  "/images/city_5.webp",
-  "/images/balcony.webp",
-  "/images/wine_bottle.webp",
-  "/images/outside_building.webp",
-  "/images/city.webp",
-  "/images/bedroom_1.webp",
-  "/images/bathroom_2.webp",
-  "/images/detail.webp",
-  "/images/city_2.webp",
-  "/images/bedroom_2.webp",
-  "/images/balcony_2.webp",
-  "/images/city_3.webp",
-  "/images/bedroom_3.webp",
-  "/images/bathroom_3.webp",
-  "/images/bathroom_detail.webp",
-  "/images/city_4.webp",
-  "/images/washing_machine.webp",
-  "/images/bathroom_detail_2.webp",
-  "/images/bedroom4.webp",
-  "/images/city_6.webp"
-];
+  "images/bedroom.webp",
+  "images/kitchen.webp",
+  "images/bathroom.webp",
+  "images/city_5.webp",
+  "images/balcony.webp",
+  "images/wine_bottle.webp",
+  "images/outside_building.webp",
+  "images/city.webp",
+  "images/bedroom_1.webp",
+  "images/bathroom_2.webp",
+  "images/detail.webp",
+  "images/city_2.webp",
+  "images/bedroom_2.webp",
+  "images/balcony_2.webp",
+  "images/city_3.webp",
+  "images/bedroom_3.webp",
+  "images/bathroom_3.webp",
+  "images/bathroom_detail.webp",
+  "images/city_4.webp",
+  "images/washing_machine.webp",
+  "images/bathroom_detail_2.webp",
+  "images/bedroom4.webp",
+  "images/city_6.webp"
+].map(path => import.meta.env.BASE_URL + path);
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
