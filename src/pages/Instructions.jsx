@@ -142,18 +142,18 @@ const Instructions = () => {
                   },
                 ]).map((p, i) => (
                   <div key={i} className="parking-card">
-                    <div className="parking-card-header">
-                      <div>
-                        <strong className="parking-name">{p.name}</strong>
-                        <span className="parking-badge">{p.badge}</span>
-                      </div>
-                      <a href={p.link} target="_blank" rel="noopener noreferrer" className="maps-link parking-maps-link">
-                        <MapPin size={13} /> apri in maps
-                      </a>
+                    <strong className="parking-name">{p.name}</strong>
+                    <div className="parking-tags">
+                      {p.badge.split(' · ').map((tag, t) => (
+                        <span key={t} className="parking-badge">{tag}</span>
+                      ))}
                     </div>
                     <ul className="parking-notes">
                       {p.notes.map((note, j) => <li key={j}>{note}</li>)}
                     </ul>
+                    <a href={p.link} target="_blank" rel="noopener noreferrer" className="parking-maps-link">
+                      <MapPin size={13} /> apri in maps
+                    </a>
                   </div>
                 ))}
 
