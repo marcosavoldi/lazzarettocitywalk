@@ -359,3 +359,8 @@
 .footer-links a:hover {
   color: #fff;
 }
+@media (max-width: 768px) {
+  .footer {
+    padding-bottom: 180px; /* Space for future mobile floating elements */
+  }
+}
