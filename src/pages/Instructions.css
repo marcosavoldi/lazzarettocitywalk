@@ -110,21 +110,19 @@
   transform: rotate(180deg);
 }
 
-/* Panel slide using Grid 0fr -> 1fr trick for perfect "auto" height transition */
+/* Panel slide */
 .accordion-panel {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .accordion-item.open .accordion-panel {
-  grid-template-rows: 1fr;
+  max-height: 4000px; /* very generous max to prevent clipping on mobile */
 }
 
 .accordion-body {
-  min-height: 0;
-  padding: 0 0.5rem 2rem 0.5rem;
+  padding: 0.8rem 0.5rem 2rem 0.5rem;
   color: var(--color-text);
   font-size: 1.05rem;
   line-height: 1.8;
