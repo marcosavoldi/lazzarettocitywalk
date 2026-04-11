@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Wifi, Wind, Coffee, Users, Baby, Phone, Mail, MessageCircle, X, Utensils, Bath, Bed, Tv, Thermometer, ShieldCheck, Sun, Car, PawPrint, Check, Key } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import './Home.css';
+import PrivacyModal from '../components/PrivacyModal';
 
 const heroImages = [
   import.meta.env.BASE_URL + "images/bedroom.webp",
@@ -28,6 +29,7 @@ const Home = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
 
   // Prevent background scroll when modal is open
   useEffect(() => {
@@ -239,7 +241,7 @@ const Home = () => {
               </Trans>
             </p>
             <p className="footer-links">
-               <a href="#">{t('home.footer.privacy')}</a> - <a href="#">{t('home.footer.termini')}</a>
+               <button onClick={() => setIsPrivacyOpen(true)} className="footer-link-btn">{t('home.footer.privacy')}</button> - <a href="#">{t('home.footer.termini')}</a>
                <span style={{opacity: 0.1, marginLeft: '10px'}}><a href="/istruzioni-ingresso">Admin</a></span>
             </p>
          </div>
@@ -285,6 +287,8 @@ const Home = () => {
         </div>
       )}
 
+      {/* Privacy Policy Modal */}
+      <PrivacyModal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)} />
     </div>
   );
 };

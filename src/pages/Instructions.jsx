@@ -2,10 +2,12 @@ import { useState, useRef } from 'react';
 import { KeySquare, Zap, Phone, Mail, ChevronDown, Home as HomeIcon, Thermometer, SunDim } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import './Instructions.css';
+import PrivacyModal from '../components/PrivacyModal';
 
 const Instructions = () => {
   const { t } = useTranslation();
   const [openStep, setOpenStep] = useState(0);
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
   const stepRefs = useRef([]);
 
   const toggleStep = (index) => {
@@ -225,11 +227,14 @@ const Instructions = () => {
               </Trans>
             </p>
             <p className="footer-links">
-               <a href="#">{t('home.footer.privacy')}</a> - <a href="#">{t('home.footer.termini')}</a>
+               <button onClick={() => setIsPrivacyOpen(true)} className="footer-link-btn">{t('home.footer.privacy')}</button> - <a href="#">{t('home.footer.termini')}</a>
                <span style={{opacity: 0.1, marginLeft: '10px'}}><a href="/istruzioni-ingresso">Admin</a></span>
             </p>
          </div>
       </footer>
+
+      {/* Privacy Policy Modal */}
+      <PrivacyModal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)} />
     </div>
   );
 };

@@ -325,9 +325,19 @@
 .footer-links {
   margin-top: 1.5rem;
 }
-.footer-links a {
+.footer-links a, .footer-link-btn {
   color: rgba(255,255,255,0.5);
   margin: 0 10px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+.footer-link-btn:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
@@ -431,6 +441,10 @@
     font-size: 0.85rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+  }
+  
+  .footer {
+    padding-bottom: 120px; /* Space for the floating CTA button */
   }
 }
 

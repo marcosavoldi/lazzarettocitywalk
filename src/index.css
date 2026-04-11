@@ -61,6 +61,22 @@ button {
   font-family: var(--font-body);
 }
 
+.footer-link-btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+.footer-link-btn:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
