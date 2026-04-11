@@ -55,7 +55,7 @@ const Instructions = () => {
           <div ref={el => stepRefs.current[0] = el} className={`accordion-item ${openStep === 0 ? 'open' : ''}`}>
             <button className="accordion-trigger" onClick={() => toggleStep(0)}>
               <span className="accordion-step-num"><Car size={18} /></span>
-              <span className="accordion-label">Dove parcheggiare</span>
+              <span className="accordion-label">{i18n.language.startsWith('en') ? 'Where to park' : 'Dove parcheggiare'}</span>
               <ChevronDown size={22} className="accordion-chevron" />
             </button>
             <div className="accordion-panel">
