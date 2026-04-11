@@ -135,7 +135,7 @@
     "s3_out_title": "Locking from outside",
     "s3_out_p": "To lock the door from the outside, you must <1>first unlock the knob</1> using one of the methods described for opening it, and then rotate it to lock the door. If the knob is not unlocked first, it will spin freely and the door will not lock.",
     "s4_title": "4. Inside the apartment",
-    "s4_keys_intro": "Once you enter the apartment, on the cabinet to your right you will find a small basket containing an <1>emergency key</1>. This key opens both the pedestrian gate and the building staircase door.",
+    "s4_keys_intro": "Once you enter the apartment, on the cabinet to your right you will find a small basket containing a <1>key</1>. This key opens both the pedestrian gate and the building staircase door.",
     "s4_keys_warning": "👉 Please carry it with you at all times during your stay, to guarantee access if your phone runs out of battery, or in case a temporary malfunction makes the virtual buttons go offline.",
     "s4_keys_checkout": "Upon check-out, put it back in the same basket, and remember to lock the apartment door when leaving.",
     "s4_list_title": "On the same cabinet you will find:",
