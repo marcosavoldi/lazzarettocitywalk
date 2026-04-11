@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/lazzarettocitywalk">
+    <Router>
       <Navbar />
       <main>
         <Routes>
