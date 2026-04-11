@@ -43,6 +43,11 @@
       "img3_alt": "Benvenuto",
       "btn": "ESPLORA LA GALLERIA"
     },
+    "posizione": {
+      "title": "Dove Siamo",
+      "desc": "Ci trovi nel cuore di Bergamo, a pochi passi dal Lazzaretto e dal Gewiss Stadium. Una posizione perfetta per esplorare la città.",
+      "cta": "Apri in Google Maps"
+    },
     "contatti": {
       "subtitle": "Contatti",
       "title": "Siamo a tua disposizione",

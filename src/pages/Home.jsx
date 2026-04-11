@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Wifi, Wind, Coffee, Users, Baby, Phone, Mail, MessageCircle, X, Utensils, Bath, Bed, Tv, Thermometer, ShieldCheck, Sun, Car, PawPrint, Check, Key } from 'lucide-react';
+import { MapPin, Wifi, Wind, Coffee, Users, Baby, Phone, Mail, MessageCircle, X, Utensils, Bath, Bed, Tv, Thermometer, ShieldCheck, Sun, Car, PawPrint, Check, Key, ExternalLink } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import './Home.css';
 import PrivacyModal from '../components/PrivacyModal';
@@ -220,15 +220,24 @@ const Home = () => {
             </div>
           </div>
           <div className="map-container fade-in">
-             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.053702117173!2d9.67499991556381!3d45.70014097910403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781510eb3b11c97%3A0x6bba8d234a9b6c0!2sVia%20del%20Lazzaretto%2C%2015%2C%2024124%20Bergamo%20BG!5e0!3m2!1sit!2sit!4v1690000000000!5m2!1sit!2sit" 
-                width="100%" 
-                height="450" 
-                style={{border: 0, borderRadius: '12px'}} 
-                allowFullScreen="" 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade">
-             </iframe>
+             <div className="map-static-box">
+                <div className="map-placeholder-content">
+                  <div className="map-icon-wrapper">
+                    <MapPin size={40} />
+                  </div>
+                  <h3>{t('home.posizione.title')}</h3>
+                  <p>{t('home.posizione.desc')}</p>
+                  <a 
+                    href="https://www.google.com/maps/dir/?api=1&destination=Lazzaretto+City+Walk+Bergamo" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn-map"
+                  >
+                    {t('home.posizione.cta')}
+                    <ExternalLink size={18} />
+                  </a>
+                </div>
+             </div>
           </div>
         </div>
       </section>
