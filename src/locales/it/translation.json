@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "home": "Home",
+    "appartamento": "Appartamento",
+    "servizi": "Servizi",
+    "galleria": "Galleria",
+    "posizione": "Posizione",
+    "dove_siamo": "Dove Siamo",
+    "prenota": "Prenota",
+    "prenota_ora": "PRENOTA ORA"
+  },
+  "home": {
+    "hero_subtitle": "ELEGANT GUEST HOUSE",
+    "intro_title": "L'Eleganza a Bergamo",
+    "intro_p": "Un ritiro intimo nel cuore della città, dove il comfort moderno incontra l'accoglienza di casa.",
+    "amenities": {
+      "wifi": "Wi-Fi Libero",
+      "checkin": "Self Check-in",
+      "vista": "Vista Città",
+      "aria": "Aria Condizionata",
+      "cucina": "Angolo Cottura",
+      "posizione_unica": "Posizione Unica"
+    },
+    "appartamento": {
+      "title": "Uno spazio su misura per te",
+      "p1": "Situato in <1>Via del Lazzaretto 15</1>, a soli 20 metri dal Gewiss Stadium e dall'area eventi del Lazzaretto, il nostro appartamento gode di una posizione impareggiabile a Bergamo.",
+      "p2": "Città Alta, il centro moderno e il nuovo hub Chorus Life sono tutti comodamente raggiungibili a piedi. Inoltre, passeggerai a poche centinaia di metri dai borghi storici più affascinanti della città: Borgo Santa Caterina, Borgo Pignolo e Borgo Palazzo.",
+      "badge1": "2 Ospiti",
+      "badge2": "+1 Culla"
+    },
+    "servizi": {
+      "title": "I Nostri Servizi",
+      "wifi_desc": "Connessione performante per i tuoi momenti di relax o produttività.",
+      "aria_desc": "Il clima ideale, regolabile a tuo piacimento in ogni momento.",
+      "cucina_desc": "Tutto il necessario per preparare i tuoi piatti preferiti in autonomia.",
+      "posizione_desc": "A pochi passi dal cuore pulsante e dalle meraviglie di Bergamo."
+    },
+    "galleria": {
+      "title": "La Struttura",
+      "subtitle": "Un'anteprima della tua oasi a Bergamo",
+      "img1_alt": "Ampia e luminosa",
+      "img2_alt": "Vista dalla finestra",
+      "img3_alt": "Benvenuto",
+      "btn": "ESPLORA LA GALLERIA"
+    },
+    "contatti": {
+      "subtitle": "Contatti",
+      "title": "Siamo a tua disposizione",
+      "stefania": "Stefania",
+      "marco": "Marco",
+      "address_name": "Lazzaretto City Walk",
+      "address_street": "Via del Lazzaretto, 15 - Bergamo (BG)",
+      "verifica_btn": "VERIFICA DISPONIBILITÀ"
+    },
+    "all_amenities": {
+      "btn_open": "Mostra tutti i servizi",
+      "modal_title": "Tutti i servizi",
+      "categories": {
+        "cucina": {
+            "title": "Cucina e Zona Pranzo",
+            "items": ["Cucina attrezzata", "Frigorifero con congelatore", "Fornello e pentole", "Macchina del caffè Nespresso", "Caffè e tisane", "Bollitore", "Piatti, bicchieri e posate", "Condimenti base (Olio, sale, pepe)", "Tavolo da pranzo"]
+        },
+        "camera": {
+            "title": "Camera da Letto e Lavanderia",
+            "items": ["Materasso e biancheria", "Cuscini e coperte extra", "Tende oscuranti", "Guardaroba con grucce", "Stendibiancheria", "Lavatrice"]
+        },
+        "bagno": {
+            "title": "Bagno",
+            "items": ["Asciugamani", "Prodotti da bagno (Shampoo, Bagnoschiuma, Sapone)", "Box doccia e acqua calda", "Bidè", "Asciugacapelli", "Prodotti per la pulizia"]
+        },
+        "comfort": {
+            "title": "Climatizzazione",
+            "items": ["Aria condizionata autonoma", "Riscaldamento"]
+        },
+        "tech": {
+            "title": "Intrattenimento e Internet",
+            "items": ["Smart TV", "Wi-Fi gratuito"]
+        },
+        "famiglia": {
+            "title": "Famiglia",
+            "items": ["Culla su richiesta (lenzuola incluse)"]
+        },
+        "aperto": {
+            "title": "All'Aperto",
+            "items": ["Balcone privato"]
+        },
+        "parcheggio": {
+            "title": "Parcheggio",
+            "items": ["Parcheggio gratuito in strada (strisce bianche)", "Parcheggio a pagamento in strada (strisce blu)", "Parcheggio coperto a pagamento (sotto lo stadio)"]
+        },
+        "sicurezza": {
+            "title": "Sicurezza",
+            "items": ["Rilevatore di monossido di carbonio", "Estintore", "Kit di pronto soccorso"]
+        },
+        "extra": {
+            "title": "Animali Domestici",
+            "items": ["Animali ammessi"]
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© {{year}} Lazzaretto City Walk. Elegance in Bergamo.",
+      "privacy": "Privacy Policy",
+      "termini": "Termini"
+    }
+  },
+  "gallery": {
+    "title": "Galleria",
+    "subtitle": "Esplora ogni dettaglio prima del tuo arrivo."
+  },
+  "instructions": {
+    "title": "Accesso Appartamento",
+    "subtitle": "Lazzaretto City Walk",
+    "s1_title": "1. Ingresso",
+    "s1_p1": "Recati in <0>Via del Lazzaretto 15, Bergamo</0> <1>(apri in maps)</1> e posizionati davanti al cancello pedonale.",
+    "s1_p2": "Accedendo al link che hai ricevuto dopo la conferma del check-in online, troverai due pulsanti: <1>PORTA PALAZZO</1> e <1>PORTA APPARTAMENTO</1>.",
+    "s1_p3": "Premi il pulsante <1>PORTA PALAZZO</1>, dopo qualche istante il cancello pedonale e la porta di accesso alle scale condominiali si apriranno.",
+    "s2_title": "2. Porta appartamento",
+    "s2_p1": "Una volta entrato nelle scale condominiali, sali fino al <1>secondo piano</1>. Arrivato al piano, dirigiti verso la porta che si trova esattamente di fronte a te. La riconoscerai facilmente perché è l'unica dotata di tastierino numerico sul pomello sotto alla maniglia.",
+    "s2_subtitle": "Puoi sbloccare il pomello della porta in due modi:",
+    "s2_meth1_title": "1. Tramite pulsante virtuale",
+    "s2_meth1_p": "Utilizza il pulsante <1>PORTA APPARTAMENTO</1> presente nello stesso link utilizzato per l’ingresso condominiale.",
+    "s2_meth2_title": "2. Tramite codice",
+    "s2_meth2_p": "Apri lo stesso link e visualizza il codice di accesso.",
+    "s2_meth2_note": "👉 Ti consigliamo di annotarlo, per evitare problemi nel caso in cui il telefono si scarichi durante il tuo soggiorno, oppure nel caso in cui per un malfunzionamento temporaneo i pulsanti virtuali risultassero offline. In questo caso per sbloccare il pomello premi un tasto qualsiasi per attivare il tastierino, inserisci il codice e premi il tasto lucchetto.",
+    "s2_final": "Una volta sbloccato il pomello in uno dei due modi indicati, <1>ruotalo per aprire la porta</1>.",
+    "s3_title": "3. Chiudere la porta",
+    "s3_in_title": "Chiusura dall'interno",
+    "s3_in_p": "Per chiudere la serratura dall'interno, ti basterà ruotare il pomello argentato situato sotto alla maniglia.",
+    "s3_out_title": "Chiusura dall'esterno",
+    "s3_out_p": "Per chiudere la porta dall’esterno, è necessario <1>prima sbloccare il pomello</1> utilizzando una delle modalità indicate per l’apertura, quindi ruotarlo per richiudere la serratura. Se il pomello non viene prima sbloccato, girerà a vuoto e la porta non si chiuderà.",
+    "s4_title": "4. Interno dell'appartamento",
+    "s4_keys_intro": "Una volta entrato nell’appartamento, sul mobile alla tua destra troverai un cestino con all’interno una <1>chiave d'emergenza</1>. Questa chiave apre sia il cancello pedonale sia la porta delle scale condominiali.",
+    "s4_keys_warning": "👉 Ti chiediamo di portarla sempre con te durante il soggiorno, per garantirti l'accesso nel caso in cui il tuo smartphone si scarichi, oppure nel caso in cui per un malfunzionamento temporaneo i pulsanti virtuali risultassero offline.",
+    "s4_keys_checkout": "Al momento del check-out, riposizionala nello stesso cestino dove l’hai trovata, e uscendo ricordati di chiudere la serratura della porta dell’appartamento.",
+    "s4_list_title": "Sul medesimo mobile troverai:",
+    "s4_list1": "la password della rete Wi-Fi",
+    "s4_list2": "i contatti degli host, disponibili in caso di necessità",
+    "s5_title": "Dotazioni dell'appartamento",
+    "s5_p_title": "All'interno dell'appartamento troverai:",
+    "s5_list1": "cucina con angolo cottura attrezzato",
+    "s5_list2": "lavatrice situata nel mobile del disimpegno tra soggiorno e bagno",
+    "s5_list3": "bagno con kit di cortesia e asciugamani puliti",
+    "s5_list4": "all’interno dell’armadio grigio, una coperta aggiuntiva per la notte",
+    "s6_tech_title": "Impianti e Corrente",
+    "s6_temp_title": "Temperature",
+    "s6_temp_p": "Il termostato è già impostato su una temperatura confortevole. Se necessario, puoi modificarla utilizzando le frecce su e giù. Trovi il telecomando del condizionatore sul comodino a fianco al letto.",
+    "s6_blinds_title": "Oscuranti lucernari",
+    "s6_blinds_p": "Se desideri oscurare i lucernari sul soffitto, puoi utilizzare l'apposita asta allungabile, posizionata dietro l'estintore all'ingresso.",
+    "s6_elec_title": "Elettricità",
+    "s6_elec_p": "Nel caso in cui dovesse mancare la corrente: verifica il quadro elettrico situato all'interno dell'appartamento, subito dietro la porta. Se tutti gli interruttori risultano già alzati, recati al piano -1 del vano scale e riattiva l'interruttore del contatore indicato nella fotografia.",
+    "footer_p": "Per qualsiasi necessità, non esitare a contattarci. Saremo felici di aiutarti.",
+    "visit_site": "Visita il nostro sito →"
+  }
+}

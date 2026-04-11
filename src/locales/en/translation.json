@@ -1,0 +1,155 @@
+{
+  "navbar": {
+    "home": "Home",
+    "appartamento": "Apartment",
+    "servizi": "Services",
+    "galleria": "Gallery",
+    "posizione": "Location",
+    "dove_siamo": "Where We Are",
+    "prenota": "Book",
+    "prenota_ora": "BOOK NOW"
+  },
+  "home": {
+    "hero_subtitle": "ELEGANT GUEST HOUSE",
+    "intro_title": "Elegance in Bergamo",
+    "intro_p": "An intimate retreat in the heart of the city, where modern comfort meets the warmth of home.",
+    "amenities": {
+      "wifi": "Free Wi-Fi",
+      "checkin": "Self Check-in",
+      "vista": "City View",
+      "aria": "Air Conditioning",
+      "cucina": "Kitchenette",
+      "posizione_unica": "Unique Location"
+    },
+    "appartamento": {
+      "title": "A space tailored for you",
+      "p1": "Located in <1>Via del Lazzaretto 15</1>, just 20 meters from the Gewiss Stadium and the Lazzaretto event area, our apartment boasts an unparalleled location in Bergamo.",
+      "p2": "Città Alta, the modern city center, and the new Chorus Life hub are all within comfortable walking distance. You'll also be just a few hundred meters from the city's most charming historic districts: Borgo Santa Caterina, Borgo Pignolo, and Borgo Palazzo.",
+      "badge1": "2 Guests",
+      "badge2": "+1 Crib"
+    },
+    "servizi": {
+      "title": "Our Services",
+      "wifi_desc": "High-performance connection for your moments of relaxation or productivity.",
+      "aria_desc": "The ideal climate, adjustable to your liking at any time.",
+      "cucina_desc": "Everything you need to prepare your favorite meals independently.",
+      "posizione_desc": "A few steps from the beating heart and the wonders of Bergamo."
+    },
+    "galleria": {
+      "title": "The Property",
+      "subtitle": "A preview of your oasis in Bergamo",
+      "img1_alt": "Spacious and bright",
+      "img2_alt": "View from the window",
+      "img3_alt": "Welcome",
+      "btn": "EXPLORE THE GALLERY"
+    },
+    "contatti": {
+      "subtitle": "Contacts",
+      "title": "We are at your disposal",
+      "stefania": "Stefania",
+      "marco": "Marco",
+      "address_name": "Lazzaretto City Walk",
+      "address_street": "Via del Lazzaretto, 15 - Bergamo (BG)",
+      "verifica_btn": "CHECK AVAILABILITY"
+    },
+    "all_amenities": {
+      "btn_open": "Show all amenities",
+      "modal_title": "All amenities",
+      "categories": {
+        "cucina": {
+            "title": "Kitchen & Dining",
+            "items": ["Fully equipped kitchen", "Refrigerator with freezer", "Stovetop and pots", "Nespresso coffee machine", "Coffee and tea", "Water kettle", "Plates, glasses, and silverware", "Cooking basics (Oil, salt, pepper)", "Dining table"]
+        },
+        "camera": {
+            "title": "Bedroom & Laundry",
+            "items": ["High-quality mattress and linens", "Extra pillows and blankets", "Blackout curtains", "Wardrobe with hangers", "Drying rack", "Washing machine"]
+        },
+        "bagno": {
+            "title": "Bathroom",
+            "items": ["Towels", "Toiletries (Shampoo, Shower Gel, Soap)", "Shower with hot water", "Bidet", "Hair dryer", "Cleaning products"]
+        },
+        "comfort": {
+            "title": "Heating & Cooling",
+            "items": ["Independent air conditioning", "Heating"]
+        },
+        "tech": {
+            "title": "Entertainment & Internet",
+            "items": ["Smart TV", "Free Wi-Fi"]
+        },
+        "famiglia": {
+            "title": "Family",
+            "items": ["Crib upon request (linens included)"]
+        },
+        "aperto": {
+            "title": "Outdoor",
+            "items": ["Private balcony"]
+        },
+        "parcheggio": {
+            "title": "Parking",
+            "items": ["Free street parking (white lines)", "Paid street parking (blue lines)", "Paid indoor parking (under the stadium)"]
+        },
+        "sicurezza": {
+            "title": "Safety",
+            "items": ["Carbon monoxide detector", "Fire extinguisher", "First aid kit"]
+        },
+        "extra": {
+            "title": "Pets",
+            "items": ["Pets allowed"]
+        }
+      }
+    },
+    "footer": {
+      "copyright": "© {{year}} Lazzaretto City Walk. Elegance in Bergamo.",
+      "privacy": "Privacy Policy",
+      "termini": "Terms"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Explore every detail before your arrival."
+  },
+  "instructions": {
+    "title": "Apartment Access",
+    "subtitle": "Lazzaretto City Walk",
+    "s1_title": "1. Entrance",
+    "s1_p1": "Go to <0>Via del Lazzaretto 15, Bergamo</0> <1>(open in maps)</1> and stand in front of the pedestrian gate.",
+    "s1_p2": "By accessing the link you received after confirming your online check-in, you will find two buttons: <1>PORTA PALAZZO</1> (Building Door) and <1>PORTA APPARTAMENTO</1> (Apartment Door).",
+    "s1_p3": "Press the <1>PORTA PALAZZO</1> button, and after a few moments both the pedestrian gate and the building staircase door will open.",
+    "s2_title": "2. Apartment Door",
+    "s2_p1": "Once inside the building stairs, go up to the <1>second floor</1>. When you reach the floor, head to the door exactly in front of you. You will easily recognize it because it's the only one equipped with a numeric keypad on the knob below the handle.",
+    "s2_subtitle": "You can unlock the door knob in two ways:",
+    "s2_meth1_title": "1. Via virtual button",
+    "s2_meth1_p": "Use the <1>PORTA APPARTAMENTO</1> button found in the same link used for the building entrance.",
+    "s2_meth2_title": "2. Via pincode",
+    "s2_meth2_p": "Open the same link to view your access code.",
+    "s2_meth2_note": "👉 We advise you to write it down to avoid problems if your phone runs out of battery during your stay, or in case a temporary malfunction makes the virtual buttons go offline. In this case, to unlock the knob, press any key to activate the keypad, enter the code, and press the padlock key.",
+    "s2_final": "Once the knob is unlocked in either of the two ways indicated, <1>rotate it to open the door</1>.",
+    "s3_title": "3. Locking the door",
+    "s3_in_title": "Locking the door (from inside)",
+    "s3_in_p": "To lock the door from the inside, simply rotate the silver knob located below the handle.",
+    "s3_out_title": "Locking from outside",
+    "s3_out_p": "To lock the door from the outside, you must <1>first unlock the knob</1> using one of the methods described for opening it, and then rotate it to lock the door. If the knob is not unlocked first, it will spin freely and the door will not lock.",
+    "s4_title": "4. Inside the apartment",
+    "s4_keys_intro": "Once you enter the apartment, on the cabinet to your right you will find a small basket containing an <1>emergency key</1>. This key opens both the pedestrian gate and the building staircase door.",
+    "s4_keys_warning": "👉 Please carry it with you at all times during your stay, to guarantee access if your phone runs out of battery, or in case a temporary malfunction makes the virtual buttons go offline.",
+    "s4_keys_checkout": "Upon check-out, put it back in the same basket, and remember to lock the apartment door when leaving.",
+    "s4_list_title": "On the same cabinet you will find:",
+    "s4_list1": "the Wi-Fi network password",
+    "s4_list2": "the hosts' contact info, available in case of need",
+    "s5_title": "Apartment Amenities",
+    "s5_p_title": "Inside the apartment you will find:",
+    "s5_list1": "kitchenette, fully equipped for cooking and dining",
+    "s5_list2": "washing machine located in the hallway cabinet between the living room and bathroom",
+    "s5_list3": "bathroom with complementary toiletries and clean towels",
+    "s5_list4": "an extra blanket for the night, located inside the gray wardrobe",
+    "s6_tech_title": "Systems and Electricity",
+    "s6_temp_title": "Temperature",
+    "s6_temp_p": "The thermostat is already set to a comfortable temperature. If necessary, you can adjust it using the up and down arrows. You can find the AC remote control on the nightstand next to the bed.",
+    "s6_blinds_title": "Skylight Blinds",
+    "s6_blinds_p": "If you wish to darken the ceiling skylights, you can use the extendable rod located behind the fire extinguisher at the entrance.",
+    "s6_elec_title": "Electricity",
+    "s6_elec_p": "In the event of a power outage: check the electrical panel located inside the apartment, right behind the door. If all the switches are already up, go to floor -1 in the stairwell and reactivate the meter switch shown in the photograph.",
+    "footer_p": "For any needs, do not hesitate to contact us. We will be happy to assist you.",
+    "visit_site": "Visit our website →"
+  }
+}
