@@ -151,13 +151,13 @@ const Home = () => {
         </div>
         <div className="gallery-sneak-peek">
            <div className="gallery-item large">
-             <img src="/images/bedroom.webp" alt={t('home.galleria.img1_alt')} />
+             <img src={`${import.meta.env.BASE_URL}images/bedroom.webp`} alt={t('home.galleria.img1_alt')} />
            </div>
            <div className="gallery-item">
-             <img src="/images/city_5.webp" alt={t('home.galleria.img2_alt')} />
+             <img src={`${import.meta.env.BASE_URL}images/city_5.webp`} alt={t('home.galleria.img2_alt')} />
            </div>
            <div className="gallery-item">
-             <img src="/images/wine_bottle.webp" alt={t('home.galleria.img3_alt')} />
+             <img src={`${import.meta.env.BASE_URL}images/wine_bottle.webp`} alt={t('home.galleria.img3_alt')} />
            </div>
         </div>
         <div className="text-center mt-6">
