@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { KeySquare, Zap, Phone, Mail, ChevronDown, Home as HomeIcon, Thermometer, SunDim } from 'lucide-react';
+import { KeySquare, Zap, Phone, Mail, ChevronDown, Home as HomeIcon, Thermometer, SunDim, Car, MapPin } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import './Instructions.css';
 import PrivacyModal from '../components/PrivacyModal';
@@ -51,9 +51,81 @@ const Instructions = () => {
         {/* ===== ACCORDION: Sections 1–3 (Ingresso guidato) ===== */}
         <div className="accordion-wrapper">
 
-          {/* Step 1: Ingresso */}
+          {/* Step 0: Dove parcheggiare */}
           <div ref={el => stepRefs.current[0] = el} className={`accordion-item ${openStep === 0 ? 'open' : ''}`}>
             <button className="accordion-trigger" onClick={() => toggleStep(0)}>
+              <span className="accordion-step-num"><Car size={18} /></span>
+              <span className="accordion-label">Dove parcheggiare</span>
+              <ChevronDown size={22} className="accordion-chevron" />
+            </button>
+            <div className="accordion-panel">
+              <div className="accordion-body">
+                <p style={{marginBottom: '1.5rem', color: 'var(--color-text-light)', fontSize: '0.95rem'}}>Le soluzioni più comode vicino all&apos;appartamento, dalla gratuita alla coperta.</p>
+
+                {[
+                  {
+                    name: 'Via dei Ghirardelli',
+                    badge: 'Gratuito · Disco 3h di giorno · No limiti di notte',
+                    notes: ['Esattamente sotto l\'appartamento', '⚠️ Non disponibile nei giorni di partita'],
+                    link: 'https://maps.app.goo.gl/japF3wnKinouFLWaA'
+                  },
+                  {
+                    name: 'Curva Sud Stadio',
+                    badge: 'Gratuito · Disco 3h di giorno · No limiti di notte',
+                    notes: ['A pochissimi metri dall\'alloggio', '⚠️ Non disponibile sab. mattina (mercato) né nei giorni di partita'],
+                    link: 'https://maps.app.goo.gl/3nDTjqhHqbrEUA2M9'
+                  },
+                  {
+                    name: 'Parcheggio Coperto Stadio',
+                    badge: 'A pagamento · Coperto / interrato',
+                    notes: ['Ideale per pioggia o maggiore protezione auto', '⚠️ Non disponibile durante partite o eventi'],
+                    link: 'https://maps.app.goo.gl/2hCQwbD7pt2PizMdA'
+                  },
+                  {
+                    name: 'Via Marzabotto',
+                    badge: 'Gratuito · Nessun disco orario · Nessun limite',
+                    notes: ['✅ Ottimo per soggiorni lunghi — via lunga con molti posti'],
+                    link: 'https://maps.app.goo.gl/8qiA9isgvjRrfxR27'
+                  },
+                  {
+                    name: 'Via Crescenzi',
+                    badge: 'Gratuito (tratti finali)',
+                    notes: ['Inizia sotto l\'appartamento', 'Primi tratti: disco 1h — proseguendo: posti liberi senza limiti'],
+                    link: 'https://maps.app.goo.gl/FMw3mFeyDpMNFY9Y8'
+                  },
+                  {
+                    name: 'Preda Parking',
+                    badge: 'A pagamento · Via Pitentino',
+                    notes: ['Alternativa ideale nei weekend affollati o nei giorni di partita'],
+                    link: 'https://maps.app.goo.gl/hEHbDS8fF87uuZKw8'
+                  },
+                ].map((p, i) => (
+                  <div key={i} className="parking-card">
+                    <div className="parking-card-header">
+                      <div>
+                        <strong className="parking-name">{p.name}</strong>
+                        <span className="parking-badge">{p.badge}</span>
+                      </div>
+                      <a href={p.link} target="_blank" rel="noopener noreferrer" className="maps-link parking-maps-link">
+                        <MapPin size={13} /> apri in maps
+                      </a>
+                    </div>
+                    <ul className="parking-notes">
+                      {p.notes.map((note, j) => <li key={j}>{note}</li>)}
+                    </ul>
+                  </div>
+                ))}
+
+                <div className="inline-note mt-4" style={{borderLeftColor: 'var(--color-primary)'}}>
+                  <p style={{fontWeight: 600}}>⚠️ Nei giorni di partita dell&apos;Atalanta o eventi al New Balance Arena i parcheggi vicini potrebbero non essere disponibili. Consigliamo <strong>Via Marzabotto</strong> o <strong>Preda Parking</strong>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Step 1: Ingresso */}
+          <div ref={el => stepRefs.current[1] = el} className={`accordion-item ${openStep === 1 ? 'open' : ''}`}>
+            <button className="accordion-trigger" onClick={() => toggleStep(1)}>
               <span className="accordion-step-num">1</span>
               <span className="accordion-label">{t('instructions.s1_title').replace('1. ', '')}</span>
               <ChevronDown size={22} className="accordion-chevron" />
@@ -69,8 +141,8 @@ const Instructions = () => {
           </div>
 
           {/* Step 2: Porta appartamento */}
-          <div ref={el => stepRefs.current[1] = el} className={`accordion-item ${openStep === 1 ? 'open' : ''}`}>
-            <button className="accordion-trigger" onClick={() => toggleStep(1)}>
+          <div ref={el => stepRefs.current[2] = el} className={`accordion-item ${openStep === 2 ? 'open' : ''}`}>
+            <button className="accordion-trigger" onClick={() => toggleStep(2)}>
               <span className="accordion-step-num">2</span>
               <span className="accordion-label">{t('instructions.s2_title').replace('2. ', '')}</span>
               <ChevronDown size={22} className="accordion-chevron" />
@@ -104,8 +176,8 @@ const Instructions = () => {
           </div>
 
           {/* Step 3: Chiudere la porta */}
-          <div ref={el => stepRefs.current[2] = el} className={`accordion-item ${openStep === 2 ? 'open' : ''}`}>
-            <button className="accordion-trigger" onClick={() => toggleStep(2)}>
+          <div ref={el => stepRefs.current[3] = el} className={`accordion-item ${openStep === 3 ? 'open' : ''}`}>
+            <button className="accordion-trigger" onClick={() => toggleStep(3)}>
               <span className="accordion-step-num">3</span>
               <span className="accordion-label">{t('instructions.s3_title').replace('3. ', '')}</span>
               <ChevronDown size={22} className="accordion-chevron" />
