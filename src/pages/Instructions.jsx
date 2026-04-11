@@ -3,11 +3,13 @@ import { KeySquare, Zap, Phone, Mail, ChevronDown, Home as HomeIcon, Thermometer
 import { useTranslation, Trans } from 'react-i18next';
 import './Instructions.css';
 import PrivacyModal from '../components/PrivacyModal';
+import CookieModal from '../components/CookieModal';
 
 const Instructions = () => {
   const { t } = useTranslation();
   const [openStep, setOpenStep] = useState(0);
   const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
+  const [isCookieOpen, setIsCookieOpen] = useState(false);
   const stepRefs = useRef([]);
 
   const toggleStep = (index) => {
@@ -227,14 +229,14 @@ const Instructions = () => {
               </Trans>
             </p>
             <p className="footer-links">
-               <button onClick={() => setIsPrivacyOpen(true)} className="footer-link-btn">{t('home.footer.privacy')}</button> - <a href="#">{t('home.footer.termini')}</a>
-               <span style={{opacity: 0.1, marginLeft: '10px'}}><a href="/istruzioni-ingresso">Admin</a></span>
+               <button onClick={() => setIsPrivacyOpen(true)} className="footer-link-btn">{t('home.footer.privacy')}</button> - <button onClick={() => setIsCookieOpen(true)} className="footer-link-btn">{t('home.footer.cookie')}</button>
             </p>
          </div>
       </footer>
 
-      {/* Privacy Policy Modal */}
+      {/* Privacy & Cookie Modals */}
       <PrivacyModal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)} />
+      <CookieModal isOpen={isCookieOpen} onClose={() => setIsCookieOpen(false)} />
     </div>
   );
 };
