@@ -154,7 +154,53 @@
     "s6_blinds_p": "If you wish to darken the ceiling skylights, you can use the extendable rod located behind the fire extinguisher at the entrance.",
     "s6_elec_title": "Electricity",
     "s6_elec_p": "In the event of a power outage: check the electrical panel located inside the apartment, right behind the door. If all the switches are already up, go to floor -1 in the stairwell and reactivate the meter switch shown in the photograph.",
+    "parking": {
+      "title": "Where to park",
+      "subtitle": "The most convenient parking options near the apartment, from free to covered.",
+      "open_maps": "open in maps",
+      "match_day_warning": "⚠️ On Atalanta match days or New Balance Arena events, nearby parking may be unavailable. We recommend <1>Via Marzabotto</1> or <2>Preda Parking</2>.",
+      "options": [
+        {
+          "name": "Via dei Ghirardelli",
+          "badge": "Free · 3h disc daytime · No limit at night",
+          "notes": ["Directly below the apartment", "⚠️ Not available on match days"],
+          "link": "https://maps.app.goo.gl/japF3wnKinouFLWaA"
+        },
+        {
+          "name": "Curva Sud Stadio",
+          "badge": "Free · 3h disc daytime · No limit at night",
+          "notes": ["A few meters from the apartment", "⚠️ Not available Sat. morning (market) or on match days"],
+          "link": "https://maps.app.goo.gl/3nDTjqhHqbrEUA2M9"
+        },
+        {
+          "name": "Stadium Covered Car Park",
+          "badge": "Paid · Covered / underground",
+          "notes": ["Ideal in rain or for extra vehicle protection", "⚠️ Not available during matches or events"],
+          "link": "https://maps.app.goo.gl/2hCQwbD7pt2PizMdA"
+        },
+        {
+          "name": "Via Marzabotto",
+          "badge": "Free · No disc · No time limit",
+          "notes": ["✅ Great for longer stays — long street with many spaces"],
+          "link": "https://maps.app.goo.gl/8qiA9isgvjRrfxR27"
+        },
+        {
+          "name": "Via Crescenzi",
+          "badge": "Free (further sections)",
+          "notes": ["Starts right below the apartment", "First section: 1h disc — further along: free unlimited spaces"],
+          "link": "https://maps.app.goo.gl/FMw3mFeyDpMNFY9Y8"
+        },
+        {
+          "name": "Preda Parking",
+          "badge": "Paid · Via Pitentino",
+          "notes": ["Ideal alternative on busy weekends or match days"],
+          "link": "https://maps.app.goo.gl/hEHbDS8fF87uuZKw8"
+        }
+      ]
+    },
     "footer_p": "For any needs, do not hesitate to contact us. We will be happy to assist you.",
-    "visit_site": "Visit our website →"
+    "visit_site": "Visit our website →",
+    "whatsapp_message": "Hello, I am contacting you for information about the Lazzaretto City Walk apartment"
   }
 }
+

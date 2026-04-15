@@ -154,7 +154,53 @@
     "s6_blinds_p": "Se desideri oscurare i lucernari sul soffitto, puoi utilizzare l'apposita asta allungabile, posizionata dietro l'estintore all'ingresso.",
     "s6_elec_title": "Elettricità",
     "s6_elec_p": "Nel caso in cui dovesse mancare la corrente: verifica il quadro elettrico situato all'interno dell'appartamento, subito dietro la porta. Se tutti gli interruttori risultano già alzati, recati al piano -1 del vano scale e riattiva l'interruttore del contatore indicato nella fotografia.",
+    "parking": {
+      "title": "Dove parcheggiare",
+      "subtitle": "Le soluzioni più comode vicino all’appartamento, dalla gratuita alla coperta.",
+      "open_maps": "apri in maps",
+      "match_day_warning": "⚠️ Nei giorni di partita dell'Atalanta o eventi al New Balance Arena i parcheggi vicini potrebbero non essere disponibili. Consigliamo <1>Via Marzabotto</1> o <2>Preda Parking</2>.",
+      "options": [
+        {
+          "name": "Via dei Ghirardelli",
+          "badge": "Gratuito · Disco 3h di giorno · No limiti di notte",
+          "notes": ["Esattamente sotto l’appartamento", "⚠️ Non disponibile nei giorni di partita"],
+          "link": "https://maps.app.goo.gl/japF3wnKinouFLWaA"
+        },
+        {
+          "name": "Curva Sud Stadio",
+          "badge": "Gratuito · Disco 3h di giorno · No limiti di notte",
+          "notes": ["A pochissimi metri dall’alloggio", "⚠️ Non disponibile sab. mattina (mercato) né nei giorni di partita"],
+          "link": "https://maps.app.goo.gl/3nDTjqhHqbrEUA2M9"
+        },
+        {
+          "name": "Parcheggio Coperto Stadio",
+          "badge": "A pagamento · Coperto / interrato",
+          "notes": ["Ideale per pioggia o maggiore protezione auto", "⚠️ Non disponibile durante partite o eventi"],
+          "link": "https://maps.app.goo.gl/2hCQwbD7pt2PizMdA"
+        },
+        {
+          "name": "Via Marzabotto",
+          "badge": "Gratuito · Nessun disco orario · Nessun limite",
+          "notes": ["✅ Ottimo per soggiorni lunghi — via lunga con molti posti"],
+          "link": "https://maps.app.goo.gl/8qiA9isgvjRrfxR27"
+        },
+        {
+          "name": "Via Crescenzi",
+          "badge": "Gratuito (tratti finali)",
+          "notes": ["Inizia sotto l’appartamento", "Primi tratti: disco 1h — proseguendo: posti liberi senza limiti"],
+          "link": "https://maps.app.goo.gl/FMw3mFeyDpMNFY9Y8"
+        },
+        {
+          "name": "Preda Parking",
+          "badge": "A pagamento · Via Pitentino",
+          "notes": ["Alternativa ideale nei weekend affollati o nei giorni di partita"],
+          "link": "https://maps.app.goo.gl/hEHbDS8fF87uuZKw8"
+        }
+      ]
+    },
     "footer_p": "Per qualsiasi necessità, non esitare a contattarci. Saremo felici di aiutarti.",
-    "visit_site": "Visita il nostro sito →"
+    "visit_site": "Visita il nostro sito →",
+    "whatsapp_message": "Ciao, ti contatto per avere informazioni sull'appartamento Lazzaretto City Walk"
   }
 }
+
